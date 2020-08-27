@@ -1,4 +1,5 @@
 # STRINGS
+
 # Assign string to message variable
 message = "Hello World"
 
@@ -30,6 +31,13 @@ print(say_hey)
 # Printing greeting using f strings.
 print(f"{greeting}, {name}. Welcome to programming!")
 
+# Some basic string modifications 
+pet = "doggo"
+pet_title = "the dog."
+# Capitalizing first letter of string with capitalize method and capitlaizing first letter
+# of every word with the title() method
+print(f"{pet.capitalize()}, {pet_title.title()}")
+
 # Display name of all attributes and methods tied to a variable by showing the directory.
 print(dir(message))
 
@@ -39,6 +47,7 @@ print(help(format))
 
 
 # NUMERIC DATA
+
 # Identifying whether data is an integer or a float
 num = 3
 num_2 = 12.5

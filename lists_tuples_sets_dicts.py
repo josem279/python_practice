@@ -1,4 +1,5 @@
 # LISTS
+
 # Create a list variable
 courses = ["Math", "Physics", "French", "Biology", "Team Sports"]
 courses_2 = ["Algebra", "Comp Sci"]
@@ -74,7 +75,11 @@ print(courses_str)
 courses_list = courses_str.split(", ")
 print(courses_list)
 
+
+
+
 # TUPLES
+
 # Work like lists but are immutable
 tuple_1 = ("History", "Math", "Physics", "Biology")
 tuple_2 = tuple_1
@@ -87,7 +92,11 @@ set_2 = {"History", "Math", "Physics", "Biology", "Math"}
 print(set_1)
 print(set_2)
 
+
+
+
 # DICTIONARIES
+
 # Creating a dictionary holding inforamtion on an athlete using key-value pairs
 athlete = {"Name": "Ryan", "Age": 24, "Sports": ["Football", "Wrestling"]}
 print(athlete)

@@ -1,4 +1,5 @@
 # FUNCTIONS
+
 # Creating a simple function
 def greet_func():
     pass # using the pass keyword since there is no code - prevents errors

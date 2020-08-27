@@ -1,4 +1,5 @@
 # CONDITIONALS
+
 # Writing simple If statements using conditional operator
 top_school = "UCF"
 
@@ -43,7 +44,11 @@ if food == "Pizza" or tasty:
 else:
     print("Not a fan of this food")
 
+
+
+
 # LOOPS AND ITERATIONS
+
 # Simple loop to print all values in list
 nums = [1, 2, 3, 4, 5]
 for num in nums:
