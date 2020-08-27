@@ -20,6 +20,15 @@ def greeting_2_func(name = "you"):
 print(greeting_2_func())
 
 
+# Using the return keyword to prevent execution of definition after a condition
+def sum(a, b):
+    if a < 5:
+        return
+    return a + b
+# Returns "None" since first argument is less than 5
+print(sum(1, 4))
+
+
 # Creating function that accepts any number of postional arguments and keyword arguments
 def soccer_player_info(*args, **kwargs):
     print(args)
@@ -28,8 +37,21 @@ def soccer_player_info(*args, **kwargs):
 # pos. arguments as tuples and kwargs as dict. key-value pairs
 soccer_player_info("Juventus", position= "Forward", foot="Left")
 
+
 # Passing in lists to our soccer_player_info function
 teams = ["Manchester United", "Portugal", "Sporting"]
 info = {"position": "Forward", "foot": "Left"}
 # Adding in "*" and "**" unpacks values in list and dict into our function
 soccer_player_info(*teams, **info)
+
+
+# Creating unnamed, anonymous functions AKA Lambdas
+square = lambda x: x ** 2
+print(square(5))
+
+# Handling exceptions using try except blocks - Used NameError in except block to print out error message due to misspelling of "title"
+title = "Learning Python is easy"
+try:
+    print(titel)
+except NameError as msg:
+    print(msg)

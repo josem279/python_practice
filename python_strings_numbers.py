@@ -78,7 +78,7 @@ print(num_4 < num_5)
 
 # Cast string values into numeric values to perform arithmetic operations.
 num_6 = "155"
-num_7 = "143"
+num_7 = "143.67"
 num_6 = int("155")
-num_7 = int("143")
+num_7 = float("143")
 print(num_6 + num_7)
